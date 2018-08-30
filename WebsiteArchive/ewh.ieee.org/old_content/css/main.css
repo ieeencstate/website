@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(../images/bg.png) 	repeat, #ea0000;
+	border: none;
+	width: auto;
+}
+
+section{
+	margin: -200px 0 0 -300px;
+	left: 50%;
+	top: 50%;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	
+}
+
+

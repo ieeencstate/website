@@ -1,0 +1,39 @@
+.dp-cur, .chip dt, .te, .te-t, .te-rev-s, .rb-n, .rb-i, .agenda, .event-title{
+white-space:normal !important;
+}
+
+#calendarTitle{
+	display:none;
+}
+
+.calendar{
+	background: none;
+}
+
+.view-cap, .view-container-border, .mv-dayname, .ui-rtsr-selected {
+  background-color: #E5e5e5;
+  color: #AE0C0C;
+}
+
+.ui-rtsr-unselected{
+	background-color: #c5c5c5;
+	color: #AE0C0C;
+}
+
+.st-dtitle{
+	background-color: #f5f5f5;
+}
+
+.st-bg-today, .st-bg-td-first, .st-dtitle-today {
+  background: none repeat scroll 0 0 #F5E7E7;
+  border: 1px solid #AE0C0C;  
+}
+
+.st-dtitle-down {
+  border-top: 1px solid #AE0C0C;
+}
+
+.st-dtitle-nonmonth {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #AAAAAA;
+}

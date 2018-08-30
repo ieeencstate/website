@@ -1,0 +1,159 @@
+/*
+  Modified from 960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.2;
+}
+
+hr {
+  border: 0 #dedbdb solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/*  Text styles */
+p {color:#444444;line-height:20px;font-size:13px;font-weight:normal;}
+a {text-decoration: none;}
+a:link {color:#333;text-decoration:none;}
+a:visited {color:#333;}
+a:hover {color:#458ab3;}
+a:active {color:#333;}
+
+ul {list-style:disc outside none;}
+ul li {padding:3px 0;}
+ul li a {color:#999;}
+ul li a:hover{color:#fefefe;}
+
+blockquote {font: 12px/18px "Droid Serif", Georgia, Times, "Times New Roman", serif;color:#999;padding:0 50px;text-align:justify;background:url("../images/testimonial-quotes.png") 20px 5px no-repeat}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.2;
+  margin-bottom:10px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}
+
+/* Tables */
+table {
+	border-color: #b3b3b3;
+	border-width: 1px;
+	border-style: solid;
+	border-right-style: none;
+		
+}
+
+th {
+	background-color: #EEE;
+	border-bottom-color: #CCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-color: #CCC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	padding: 2px 10px;
+}
+
+td {
+	border-bottom-color: #CCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-color: #CCC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	padding: 2px 10px;
+}
+
+caption {	
+	font-style: italic;
+	text-align: left;
+	padding: 10px 0;
+}
+
+/* Other */
+pre, code {background:url(../images/pre-bg.gif) repeat scroll 0 0 #E9ECF1;padding:20px;display: block;border:1px dotted #BBBBBB;color:#333333;}
+del {color: #999;}
+ins {font-style: italic;text-decoration:none;}
+dt {
+	font-weight: bold;
+}
+
+dd {
+	font-style: italic;
+	padding-left: 10px;
+	margin: 0 0 10px 0;
+}

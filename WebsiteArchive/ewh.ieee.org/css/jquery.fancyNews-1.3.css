@@ -1,0 +1,154 @@
+/*
+
+!!!!!!!!!!! NOTE: All style sheets which are commented could be customized by you. The other should not be touched, if you dont know how to handle it!!!!!!!!!!!!!!
+ 
+*/
+
+
+/* the box of the preview */
+.fn-newsPreview	{
+	position: absolute;
+	color: #444444; /* Set here the font color of the preview text */
+    font-family: 'Droid Sans',arial,sans-serif; /* Set here the font of the preview text */
+	font-size: 12px; /* Set here the font size of the preview text */
+	cursor: pointer;
+}
+
+/* the thumbnail of each preview */
+.fn-newsPreviewThumb	{
+	margin: 10px; /* Set here the margin for each thumbnail */
+	margin-top: 20px; /* Set here the offset for each thumbnail to the top side of the box */
+	border: 2px solid #FFE5BA; /* Set here the border color and thickness for each thumbnail */
+	-webkit-box-shadow: 2px 2px 6px #000000; /* Set here the shadow for the thumbnail */
+	-moz-box-shadow: 2px 2px 6px #000000;
+	box-shadow: 2px 2px 6px #000000;  
+	float: left;
+}
+
+/* the text box of each news preview */
+.fn-newsPreviewText	{
+	display: block;
+	padding: 10px; /* Set here the padding for the preview text */
+}
+
+/* the title of each news preview */
+.fn-newsPreviewText h3	{
+	margin: 0px;
+	margin-bottom: 3px; /* Set here the offset between title and date */
+	font-family: 'Lato',arial,sans-serif;; /* Set here the font of the title */
+	font-size: 15px; /* Set here the size of the title */
+	color: #AE0C0C; /* Set here the color of the title */
+}
+
+/* the date of each news preview */
+.fn-newsPreviewText h4	{
+	margin: 0px;
+	margin-bottom: 3px;  /* Set here the offset between date and text */
+	font-family: Times, serif; /* Set here the font of the date */
+	font-size: 11px; /* Set here the size of the date */
+	color: #585858; /* Set here the color of the date */
+}
+
+/* the news view box */
+#fn-newsView	{
+	position: absolute;
+	background: #333230; /* Set here the color of the news view background */
+	z-index: 1000;
+	visibility: hidden;
+}
+
+/* title box of the news view */
+#fn-newsViewTitle	{
+	position: absolute;
+	margin-top: 15px; /* Set here the offset between title and the top side */
+	margin-left: 20px; /* Set here the offset between title and the left side */
+	font-family: Times, serif; /* Set here the font of the title */
+	font-size: 17px; /* Set here the size of the title */
+	color: #FFE5BA; /* Set here the color of the title */
+}
+
+/* text box of the news view */
+#fn-newsViewHtml	{
+	position: absolute;
+	overflow: auto;
+	outline: none;
+	margin: 40px 0px 0px 20px; /* Set here the margin of the text */	
+	color: #FFFFFF; /* Set here the color of the text */
+	font-family: Myriad Pro, sans-serif; /* Set here the font of the text */
+	font-size: 12px; /* Set here the size of the text */
+}
+
+/* footer bar with rounded corners */
+#fn-newsFooterBar	{
+	position: relative;
+	height: 30px; /* Set here the height of the footer bar */
+	line-height: 30px; /* Set the line-height to the height, you set above */
+	color: #AE0C0C; /* Set here the color of the text in the footer bar */
+	font-family: Times, serif; /* Set here the font of the text in the footer bar */
+	font-size: 14px; /* Set here the size of the text in the footer bar */
+	moz-border-radius: 0px; /* Set here the border radius of the footer bar */
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+/* close button for the news view */
+#fn-newsViewClose	{
+	position: absolute;
+	background: url('../images/fancyNews/close.png') no-repeat transparent; /* Set here the path to the close.png */
+	width: 20px; /* Same width as the close.png width */
+	height: 20px; /* Same height as the close.png height */
+	right: 20px; /* Set here the offset between close button and the right side */
+	top: 5px; /* Set here the offset between close button and the top side */
+	cursor: pointer;
+}
+
+/* text margin of the footer bar */
+#fn-newsFooterBar span	{
+	margin: 15px 0px 0px 20px; /* Set here the margin of the text in the footer bar */
+}
+
+/* next/previous button */
+#fn-previousButton, #fn-nextButton	{
+	position: absolute;
+	bottom: 7px; /* Set here the offset between skip buttons and the bottom side */
+	cursor: pointer;
+}
+
+#fn-previousButton	{
+	background: url('../images/fancyNews/previous.png'); /* Set here the path to the previous.png */
+	width: 22px; /* Same width as the previous.png width */
+	height: 15px; /* Same height as the previous.png height */
+	right: 40px; /* Set here the offset between previous button and the right side */
+}
+
+#fn-nextButton	{
+	background: url('../images/fancyNews/next.png'); /* Set here the path to the previous.png */
+	width: 22px; /* Same width as the next.png width */
+	height: 15px; /* Same height as the next.png height */
+	right: 10px; /* Set here the offset between next button and the right side */
+}
+
+#fn-preloader	{
+	position: absolute;
+	background: url('../images/fancyNews/preloader.gif'); /* Set here the path to the preloader.gif */
+	width: 31px; /* Same width as the preloader.gif width */
+	height: 31px; /* Same height as the preloader.gif height */
+}
+
+#fn-newsViewHtml a	{
+	color: #97B250; /* Set here the color of each link in the text */
+}
+
+#fc-error {
+	color:red; /* Set here the color of the error text */
+}
+
+
