@@ -1,7 +1,10 @@
 # TODO
-In order of priority, this is what needs to be updated on the website..
+These are the pages that need to be made.
 
-* Update Banner on homepage
-* Keep Calendar updated
-* Update Endorsed Events
-* Update photos
+* home
+* about
+* robotics
+* officers
+* calendar
+* blog
+* join
