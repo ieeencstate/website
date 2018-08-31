@@ -1,10 +1,19 @@
 # TODO
 These are the pages that need to be made.
 
+## Pages ##
 * home
+ * calendar
+ * gallery
 * about
+  * officers
+  * sponsors
+  * awards
 * robotics
-* officers
-* calendar
-* blog
+* news
 * join
+
+## Common Code ##
+Stylesheet
+Navbar
+Footer
