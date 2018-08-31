@@ -9,6 +9,7 @@ These are the pages that need to be made.
   * officers
   * sponsors
   * awards
+  * history (link to archive)
 * robotics
 * news
 * join

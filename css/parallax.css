@@ -1,0 +1,56 @@
+@import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.bg-image1, .bg-image2, .bg-image3 {
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image1 {
+  /* The image used */
+  background-image: url("../images/bg/main-bg.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+}
+
+.bg-image2 {
+  /* The image used */
+  background-image: url("../images/bg/transition-bg.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+}
+
+.title {
+  position: relative;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.title span.heading {
+  color: #fff;
+  padding: 18px;
+  font-family: "Ubuntu";
+  font-size: 48px;
+  letter-spacing: 2px;
+
+}
+
+
+.title span.sub-heading {
+  color: #fff;
+  padding: 18px;
+  font-family: "Ubuntu";
+  font-size: 24px;
+  letter-spacing: 2px;
+
+}
