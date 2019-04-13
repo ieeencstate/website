@@ -4,96 +4,445 @@
   <title>IEEE at NC State</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
   <link rel="stylesheet" href="css/parallax.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="images/favicons/manifest.json">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<!-- Header -->
-<header>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">IEEE</a>
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">IEEE at NC State</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#aboutus">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#calendar">Calendar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#robotics">Robotics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contactus">Contact Us</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">About</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Robotics</a></li>
-      <li><a href="#">News</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a button class="btn btn-success" href="#">join</a></li>
-    </ul>
-  </div>
-</nav>
-</header>
+  </nav>
 
-<body>
+
   <!-- Landing image -->
   <div class="bg-image1">
 		<div class="title">
-			<span class="heading">IEEE at NC State</span>
+			<span id="main" class="heading">IEEE at NC State</span>
       <br/>
       <span class="sub-heading">Academics | Professionalism | Community</span>
       <br/>
-      <a class="btn btn-success btn-lg" href="https://www.ieee.org/join"> Join IEEE </a>
+      <br/>
+      <a class="btn btn-success btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSf_ogKhHJOH_om5Xmd6jmINfBiSSCswKPoKKIki0jHjPdeZ-w/viewform?usp=sf_link">Join the chapter</a>
 		</div>
 	</div>
 
   <!-- About & Calendar -->
-  <section class="wrapper main">
-    <div class="inner">
+  <div class="wrapper main inner">
+    <h2 id="aboutus">About IEEE</h2>
+
+    <div class="d-flex flex-column w-50">
+      <div class="p-2">
+        <p class="text-center">IEEE at NC State is a student chapter of the 
+        <a href="www.ieee.org">Institute of Electrical and Electronics
+        Engineers</a> (IEEE). IEEE is the world's largest professional and academic organization for ECE and CS industries,
+          with the mission of advancing technology for the benefit of humanity.
+        </p>
+      </div>
+    </div>
+    <a class="btn btn-outline-secondary btn-lg" href="https://www.ieee.org/join">Join IEEE</a>
+  </div>
+
+    <!-- Transition image-->
+    <div class="bg-image2">
+      <div class="title">
+        <span id="about" class="heading">About Us</span>
+      </div>
+    </div>
+
+  <div class="wrapper main inner">
+    <div class="d-flex flex-column align-items-center">
+
+      <div class="p-2">
+        <h2 class="text-center">Student Leaders</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex flex-row">
+              <div class="p-2">
+                <img src="assets/headshots/vmaktha.png" alt="Vishy Makthal">
+              </div>
+              <div class="p-2">
+                <b>Chair</b>
+                <p>
+                 Vishy Makthal '19<br/>vmaktha@ncsu.edu<br/>Electrical & Computer Engineering<br/><small>Internet of Things and Cybersecurity</small>
+               </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-row">
+              <div class="p-2">
+                <img src="assets/headshots/hmareddy.png" alt="Harivansh Mareddy">
+              </div>
+              <div class="p-2">
+                <b>Vice Chair</b>
+                <p>
+                 Harivansh Mareddy '19<br/>hrmarredy@ncsu.edu<br/>Electrical & Computer Engineering<br/><small>Cloud Computing, AI, and Computer Architecture</small>
+               </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex flex-row">
+              <div class="p-2">
+                <img src="assets/headshots/abalaji.png" alt="Adithya Balaji">
+              </div>
+              <div class="p-2">
+                <b>Treasurer and Webmaster</b>
+                <p>
+                 Adithya Balaji '21<br/>abalaji2@ncsu.edu<br/>Electrical & Computer Engineering<br/><small>Robotics, Data Science, and Rocketry</small>
+               </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-row">
+              <div class="p-2">
+                <img src="assets/headshots/smaktha.png" alt="Surya Makthal">
+              </div>
+              <div class="p-2">
+                <b>Secretary</b>
+                <p>
+                 Surya Makthal '21<br/>smaktha@ncsu.edu<br/>Electrical & Computer Engineering<br/><small>Prototyping and Programmming</small> 
+               </p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="p-2">
+        <h2 class="text-center">Faculty Sponsor</h2>
+        <div class="col d-flex flex-row">
+          <div class="p-2">
+            <img src="assets/headshots/rjevans.jpg" alt="Dr. Robert Evans">
+          </div>
+          <div class="p-2">
+            <b>Advisor</b>
+            <p>
+             Dr. Robert Evans<br/>rjevans@ncsu.edu<br/>ECE Teaching Associate Professor
+           </p>
+          </div>
+        </div>
+      </div>
+
       <br/>
-      <br/>
-  		<p>IEEE at NC State is a student chapter of the <a href="www.ieee.org">Institute of Electrical and Electronics
-      Engineers</a> (IEEE). IEEE is the world's largest professional and academic organization for ECE and CS industries,
-      with the mission of advancing technology for the benefit of humanity. <br/><br/>
-  		</p>
-      <h3> Calendar of Events </h3>
-      <p> Click <a href="https://calendar.google.com/calendar?cid=bmNzdS5lZHVfZWxyMG5jc2QzN2Y3MTJxcnJybmUzOTJrZXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" > here </a> to subscribe to this calendar. </p>
-      <iframe src="https://calendar.google.com/calendar/embed?src=ncsu.edu_elr0ncsd37f712qrrrne392kes%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-  	</div>
-  </section>
+
+      <h2 class="text-center">Background and History</h2>
+      <div class="p-2 w-50">
+        <p class="text-center">
+          The history of IEEE student branch at North Carolina State University dates back to the early 1900's, making it one of the older student organizations on campus. In 1910 a group of electrical engineering students formed a student chapter of the American Institute of Electrical Engineers (AIEE). After World War II had ended, NC State became the home of an Institute Engineers (IRE) student chapter in 1947. These two organizations would later merge into what we know today as the Institute of Electrical and Electronics Engineers (IEEE) student branch in 1963. <br/><br/>
+
+          The IEEE (pronounced Eye-triple-E) student branch today has over 200 members. We strive to instill professional awareness and promote technical development among our members through various activities and services. The student branch also works with the <a href="https://www.ece.ncsu.edu/">Department of Electrical and Computer Engineering</a> and the local HKN student chapter to provide students with a chance to enhance their technical and professional skills beyond the classroom.
+        </p>
+      </div>
+    </div>
+  </div>
+
   <!-- Transition image-->
-  <div class="bg-image2">
+  <div id="gallery" class="bg-image3">
 		<div class="title">
 			<span class="heading">Gallery</span>
 		</div>
 	</div>
 
-  <!-- Gallery -->
-  <section class="wrapper main">
-    <div class="inner">
-      <br/>
-      <br/>
-  		<p>Photos and tings.  <br/><br/>
-  		</p>
-  	</div>
+  <div class="wrapper main inner">
+    <!-- Gallery -->
+
+    <div id="galleryCarouselControls" class="carousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#galleryCarouselControls" data-slide-to="0" class="active"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="1"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="2"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="3"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="4"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="5"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="6"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="7"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="8"></li>
+        <li data-target="#galleryCarouselControls" data-slide-to="9"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid d-block w-100" src="assets/images/gallery/team.jpg"  alt="Team Picture">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/boba.jpg" alt="Team picture with boba">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/awards1.jpg" alt="SECon18 awards">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/awards2.jpg" alt="More SECon 18 awards">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/awards3.jpg" alt="Even more SECon 18 awards">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/extreme1.jpg" alt="Team working IEEE Extreme">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/extreme2.jpg" alt="Another team working on IEEE Extreme">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/lecture1.jpg" alt="Tech Talk">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/lecture2.jpg" alt="Tech Talk 2">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/gallery/lecture3.jpg" alt="Tech Talk 3">
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#galleryCarouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#galleryCarouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Transition image-->
+  <div id="calendar" class="bg-image4">
+    <div class="title">
+      <span class="heading">Calendar</span>
+    </div>
+  </div>
+
+  <div class="wrapper main inner">
+    <h2>Events</h2>
+    <p> Click <a href="https://calendar.google.com/calendar?cid=bmNzdS5lZHVfZWxyMG5jc2QzN2Y3MTJxcnJybmUzOTJrZXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" > here </a> to subscribe to this calendar. </p>
+    <iframe src="https://calendar.google.com/calendar/embed?src=ncsu.edu_elr0ncsd37f712qrrrne392kes%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+  <!-- Transition image-->
+  <div id="robotics" class="bg-image5">
+    <div class="title">
+      <span class="heading">Robotics</span>
+    </div>
+  </div>
+
+  <div class="wrapper main inner">
+    <h2>About the Team</h2>
+    <p class="text-center w-50">
+    The IEEE Robotics Team is an entirely NC State student run organization, fueled by the passion of individuals to solve challenging problems. We are an interdisciplinary group made up primarily of Electrical Engineering, Mechanical Engineering and Computer Science students, but are open to anyone with a passion for robotics. Our team has a history of strong performances at the annual IEEE South East Regional Conference.
+    </p>
+    <h2>Meetings</h2>
+    <p>The robotics team meets on Tuesdays at 6:30 in EB2 1003</p>
+    <br/>
+
+    <div id="roboticsCarouselControls" class="carousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#galleryCarouselControls" data-slide-to="0" class="active"></li>
+        <li data-target="#roboticsCarouselControls" data-slide-to="1"></li>
+        <li data-target="#roboticsCarouselControls" data-slide-to="2"></li>
+        <li data-target="#roboticsCarouselControls" data-slide-to="3"></li>
+        <li data-target="#roboticsCarouselControls" data-slide-to="4"></li>
+        <li data-target="#roboticsCarouselControls" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid d-block w-100" src="assets/images/robotics/theteam.jpg"  alt="Team Picture">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/robotics/robot1.jpg" alt="Robot doing stuff!">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/robotics/robot2.jpg" alt="Robot doing more stuff">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/robotics/robot3.jpg" alt="Robot doing the most stuff">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/robotics/allrobots.jpg" alt="All of the SECon 18 robots">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/robotics/robotsinaction.jpg" alt="The team working with the robots">
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#roboticsCarouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#roboticsCarouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Transition image-->
+  <section id="awards" class="bg-image6">
+    <div class="title">
+      <span class="heading">Awards</span>
+    </div>
   </section>
+
+  <div class="wrapper main inner">
+    <p class="text-center">  
+        SoutheastCon 2018 – T-shirt Design Competition – 1st Place<br/>
+        SoutheastCon 2018 – Hack-A-Thon Competition – 2nd Place<br/>
+        SoutheastCon 2018 – Networking Competition – 3rd Place<br/>
+        SoutheastCon 2017 – Student Website – 1st Place<br/>
+        Xtreme 12.0 – Team in Top 10 in US<br/>
+        Xtreme 11.0 – Team in Top 10 in US<br/>
+        Xtreme 10.0 – Team in Top 10 in US<br/>
+        Xtreme 9.0 – Team in Top 10 in US<br/>
+        Xtreme 6.0 – #1 in US, #5 in the world
+    </p>
+
+    <br />
+
+    <img class="d-block w-50" src="./assets/images/awards.jpg" alt="Awards from SECon 2018">
+
+  </div>
+
+  <!-- Transition image-->
+  <div id="sponsors" class="bg-image7">
+    <div class="title">
+      <span class="heading">Sponsors</span>
+    </div>
+  </div>
+
+  <div class="wrapper main inner">
+      <p class="text-center">  
+        A big thank you to the following companies for making a lot of what we do possible:
+      </p>
+      <br/>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Company 1 -->
+        <div class="col-md-3 align-self-center">
+            <img class="img-fluid" src="assets/sponsors/norfolk.png" alt="Norfolk">
+        </div>
+
+        <!-- Company 2 -->
+        <div class="col-md-3 align-self-center">
+            <img class="img-fluid" src="assets/sponsors/internatpaper.png" alt="International Paper">
+        </div>
+
+        <!-- Company 3 -->
+        <div class="col-md-3 align-self-center">
+            <img class="img-fluid" src="assets/sponsors/eastman.png" alt="Eastman">
+        </div>
+
+        <!-- Company 4 -->
+        <div class="col-md-3 align-self-center">
+            <img class="img-fluid" src="assets/sponsors/garmin.png" alt="Garmin">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Transition image-->
+  <div id="contactus" class="bg-image8">
+    <div class="title">
+      <span class="heading">Contact Us</span>
+    </div>
+  </div>
+
+  <div class="wrapper main inner">
+    <h2>Maling Address</h2>
+    <p class="text-center">
+      IEEE Student Branch<br/>
+      Campus Box 7911<br/> 
+      Engineering Building II<br/> 
+      NC State University<br/>
+      Raleigh, NC 27695-7911<br/>
+    </p>
+    <h2>Email</h2>
+    <p class="text-center">
+      ncsu.ieee@gmail.com<br/>
+      Attn: IEEE Student Branch<br/> 
+    </p>
+
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; IEEE at NC State 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+  
 
 </body>
 
-<!-- Footer -->
-<footer>
-		Twitter | Facebook | Email | Archive
-</footer>
+</html>

@@ -1,9 +1,7 @@
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-.bg-image1, .bg-image2, .bg-image3 {
-
-
+.bg-image1, .bg-image2, .bg-image3, .bg-image4, .bg-image5, .bg-image6, .bg-image7, .bg-image8 {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -13,7 +11,7 @@
 
 .bg-image1 {
   /* The image used */
-  background-image: url("../images/bg/main-bg.jpg");
+  background-image: url("../assets/bg/hunt.jpg");
 
   /* Set a specific height */
   height: 500px;
@@ -21,7 +19,55 @@
 
 .bg-image2 {
   /* The image used */
-  background-image: url("../images/bg/transition-bg.jpg");
+  background-image: url("../assets/bg/belltower.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+}
+
+.bg-image3 {
+  /* The image used */
+  background-image: url("../assets/bg/eb2.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+}
+
+.bg-image4 {
+  /* The image used */
+  background-image: url("../assets/bg/reynolds.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+}
+
+.bg-image5 {
+  /* The image used */
+  background-image: url("../assets/bg/talley.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+}
+
+.bg-image6 {
+  /* The image used */
+  background-image: url("../assets/bg/dhhill.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+}
+
+.bg-image7 {
+  /* The image used */
+  background-image: url("../assets/bg/oval.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+}
+
+.bg-image8 {
+  /* The image used */
+  background-image: url("../assets/bg/eb2_2.jpg");
 
   /* Set a specific height */
   height: 250px;
@@ -44,7 +90,6 @@
   letter-spacing: 2px;
 
 }
-
 
 .title span.sub-heading {
   color: #fff;
