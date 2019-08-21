@@ -24,3 +24,4 @@ steps:
     password: '$FTP_PASSWORD' # Required when credentialsOption == Inputs
     rootDirectory: '$(build.sourcesDirectory)'
     clean: true
+    trustSSL: true 
