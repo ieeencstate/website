@@ -9,9 +9,18 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+# Archive files and upload to FTP server with Azure
 steps:
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
+- task: FtpUpload@2
+  inputs:
+    credentialsOption: 'inputs' # Options: serviceEndpoint, inputs
+    serverUrl: '$FTP_URL' # Required when credentialsOption == Inputs
+    username: '$FTP_USERNAME' # Required when credentialsOption == Inputs
+    password: '$FTP_PASSWORD' # Required when credentialsOption == Inputs
+    rootDirectory: '$(build.sourcesDirectory)'
+    clean: true
