@@ -23,5 +23,11 @@ steps:
     username: '$(FTP_USERNAME)' # Required when credentialsOption == Inputs
     password: '$(FTP_PASSWORD)' # Required when credentialsOption == Inputs
     rootDirectory: '$(build.sourcesDirectory)'
+    filePatterns: |
+      **
+      !.git/**
+      !.DS_Store
+    remoteDirectory: '/'
     clean: true
-    trustSSL: true 
+    trustSSL: true
+    preservePaths: true
