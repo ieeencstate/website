@@ -25,8 +25,8 @@ steps:
     rootDirectory: '$(build.sourcesDirectory)'
     filePatterns: |
       **
-      !.git/**
-      !.DS_Store
+      !/.git/**
+      !**.DS_Store
     remoteDirectory: '/'
     clean: true
     trustSSL: true
