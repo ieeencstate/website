@@ -1,0 +1,850 @@
+/* CSS Document */
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#000;
+margin-top:0px;
+background-color:#666;
+}
+.LoginBody
+{
+    background-color: #666666;
+}
+.LoginTable
+{
+    text-align:center;
+    width: 800px;
+    margin: 35px auto;
+}
+h1, .majorHeader
+{
+    font-family:Arial;
+    font-size:18px;
+    color:#000;
+    padding-top:15px;
+    padding-left:15px;
+    color:#000000;
+}
+
+h4
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000;
+    padding-left:20px;
+    color:#666;
+}
+
+H5
+{
+    font-size:10pt; 
+    padding-left:10px; 
+    padding-top:2px; 
+    padding-bottom:2px;
+    font-weight:bold;
+    color:#000000;
+}
+
+DIV
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.InputLabel
+{
+	/*display:inline-block;*/
+	text-align:right;
+}
+.InputData
+{
+	/*display:inline-block;*/
+	text-align:left;
+}
+
+.WizInfo
+{
+	text-align:left;
+	font-weight:bold;
+	font-size:8pt;
+}
+
+
+/* Login Page */
+
+.tableContainer
+{
+    width:281;
+    height:50px;
+    border:0px;
+    color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	white-space:nowrap;
+}
+
+.LoginHeader
+{
+    background-image:url(../Img/ecoc-headerX.gif);
+    background-repeat: no-repeat;
+    height: 140px;
+}
+.LoginTableLeftRight
+{
+    background-color: #999999;
+    width: 800px;
+}
+.LoginTableCenter
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 450px;
+    background-color: #ffffff;
+    color: #666666;
+    margin: 0 auto;
+    text-align: left;
+}
+.LoginTableCenter .loginform
+{
+    margin-bottom: 45px;
+}
+.LoginTableCenter .loginControl
+{
+    clear: both;
+    padding-top: 5px;
+    height: 25px;
+    width: 250px;
+}
+.LoginTableCenter .loginControl label
+{
+    float: left;
+}
+.LoginTableCenter .loginControl input
+{
+    float: right;
+}
+.LoginTableCenter .loginButton
+{
+    clear: both;
+    padding-top: 10px;
+}
+
+* html .IE /* this is use for white space issue in IE 6 */
+{
+    display:inline;
+    position:relative;
+    clear:both; 
+    float:left;
+    width:auto;
+    height:auto;
+    background-color:#fff;
+}
+
+.Environment
+{
+	float:left;
+	margin-left:400px;
+	margin-right:auto;
+	text-align:center;
+}
+
+.Seperator
+{
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: 20px;
+	width: 120%;
+	height: 1px;
+	border-color:#666666;
+	border: none;
+	background-color: #666666;
+}
+
+.NoMasterBody
+{
+    background-color: White;
+    margin-top: 25px;
+}
+
+/* DIV IDS ---------------------------------------------------------------------------------------*/
+
+#container{
+	width:100%;  /* 1100px; */
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-color:#666;
+	border-width:1px;
+	background-color:#FFFFFF;
+	position:relative;
+}
+
+#infocontainer 
+{
+	text-align:justify;
+	height:100%;
+	height:auto;
+	background-color:White;
+	/*
+	text-align:justify;
+	height:10px;
+	border-style: solid;
+	border-width: 1px;
+	margin: auto;
+	border-color: #666666;
+	background-color: #FFFFFF;
+	display: block;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	white-space:nowrap;
+	*/
+}
+
+#LoginScreen
+{
+	text-align:center;
+	vertical-align:middle;
+	margin-top:300px;
+}
+
+/* Form Classes ------------------------------------------------------------------------*/
+
+form.cmxform fieldset {
+	margin-bottom: 0px;
+	border: none;
+}
+form.cmxform legend {
+	padding: 0 2px;
+	font-weight: bold;
+	color: #000099;
+}
+form.cmxform label {
+	display: inline-block;
+	line-height: 1.8;
+	vertical-align: top;
+	width: 75px;
+	color:#000000;
+}
+form.cmxform fieldset ol {
+	margin: 0;
+	padding: 0;
+	padding-top: 0px;
+}
+form.cmxform fieldset ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+}
+form.cmxform fieldset li {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+form.cmxform fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+form.cmxform fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+form.cmxform fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+form.cmxform fieldset fieldset label {
+  margin-left: 100px; /* Width plus 3 (html space) */
+}
+
+/* User Controls */
+
+.dropdownLabel
+{
+    font-size:10px;
+    color:#000000;
+}
+.dropdown
+{
+    font-size: 11px;
+    width:auto;
+    color:#333;
+}
+
+/* Rounded Corner leftPanel*/
+
+/* ----------------------------- Rounded Border Panel ----------------------------------- */
+
+.leftpanel {
+	margin:2px 5px 0px 9px;
+	width:430px;
+	float:left;
+	padding-bottom:15px;
+	height:auto;
+}
+
+.rightpanel {
+	margin:2px 7px 0px 5px;
+	width:620px;
+	height:auto;
+	font-size:10px;
+	float:none;
+	padding-bottom:15px;
+}
+
+.searchTop {
+	margin:2px 5px 0px 9px;
+	width:430px;
+	padding-bottom:15px;
+	height:auto;
+}
+
+.searchLeft {
+float:left;
+width:430px;
+margin:0px 20px 5px 3px;
+}
+
+.testingProfile {
+width:430px;
+margin:0px 5px 15px 5px;
+}
+
+.searchFieldsBottom {
+	margin:2px 5px 0px 9px;
+	width:auto;
+	padding-bottom:15px;
+	height:auto;
+}
+
+.rightpanel2 {
+	margin:2px 5px 0px 9px;
+	width:620px;
+	float:left;
+	padding-bottom:15px;
+	height:auto;
+}
+
+.horpanel {
+	margin:2px 5px 2px 5px;
+	width:920px;
+	height:auto;
+	font-size:10px;
+	float:left;
+	padding-bottom:15px;
+	text-align:center;
+	margin-left:10px;
+}
+
+.xtop, .xbottom {
+	display:block; 
+	background:transparent; 
+	font-size:1px;
+}
+
+.xb1, .xb2, .xb3, .xb4 {
+	display:block;
+	overflow:hidden;
+ }
+ 
+.xb1, .xb2, .xb3 {
+	height:1px;
+}
+
+.xb2, .xb3, .xb4 {
+	background:#fff; 
+	border-left:1px solid #ccc; 
+	border-right:1px solid #ccc;
+}
+
+.xb1 {
+	margin:0 5px;
+	background:#ccc;
+ }
+ 
+.xb2 {
+	margin:0 3px; 
+	border-width:0 2px;
+}
+.xb3 {
+	margin:0 2px;
+}
+
+.xb4 {
+	height:2px;
+	margin:0 1px;
+}
+
+.xboxcontent {
+	display:block; 
+	background:#fff; 
+	border:0 solid #ccc; 
+	border-width:0 1px;
+	padding:7px;
+}
+
+/* POSITIONING CLASSES ---------------------------------------------------------------------------------------*/
+
+.topContainer{
+	float:none;
+	width:auto;
+	height:auto;
+	margin-left:10px;
+}
+
+.searchContainer
+{
+    float:left;
+    margin-left:10px;
+    width:auto;
+}
+    
+
+.floatLeft2_NEW
+{
+    float:left;
+    width:auto;
+    height:auto;
+}
+
+.floatLeft
+{
+	float:left;
+	width:300px;
+	height:auto;
+	margin:0;
+}
+
+.floatLeft2
+{
+	float:left;
+	width:400px;
+	height:auto;
+	margin:0;
+}
+
+.floatLeftPad{
+	float:left;
+	width:300px;
+	height:auto;
+	padding-left:10px;
+	margin:0;
+	/* background-image: url(../gradient.gif); */
+	white-space:nowrap;
+}
+
+.floatLeftPad2
+{
+	float:left;
+	width:400px;
+	height:auto;
+	padding-left:10px;
+	margin:0;
+	/* background-image: url(../gradient.gif); */
+}
+
+.horBig{
+	width:auto;
+	height:auto;
+	clear: both;
+	display:inline-block;
+	position:relative;
+	white-space:nowrap;
+}
+
+.horBig table caption 
+{
+	text-align:left;
+}
+
+.horBig fieldset label{
+	text-align: left;
+	width: 120px;
+}
+
+.horBig fieldset ol{
+	text-align: left;
+}
+.horBig fieldset ol li label{/*this will add unlimited width to the lable*/
+	width:auto;
+}
+.horBig fieldset ul{
+	text-align: left;
+}
+
+.horBig fieldset li{
+	display: inline;
+}
+
+.grid
+{
+    width:600px;
+    height:auto;
+    overflow:auto;
+}
+
+.bigGrid
+{
+    width:900px;
+    height:auto;
+}
+
+.leftJustify 
+{
+     margin-left:15px;
+}
+
+/* Application-specific Classes */
+
+.AdditionBtt
+{
+    margin:auto;
+    position:relative;
+    width:300px;
+}
+
+.ButtonSubmit
+{
+	text-align:center;
+}
+
+.MainMenu
+{
+    font:bold;
+	text-align:center;
+	border-left:100px;
+	border-right:100px;
+	border-style:solid;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+.MainMenuItem
+{
+	margin-left:50px;
+}
+
+.welcome
+{
+    position:relative;
+    width: 700px;
+}
+
+.AlertLabel
+{
+    color:red;	
+    font:bold;
+	float:left;
+}
+.AlertLabelRight
+{
+    color:red;	
+    font:bold;
+	text-align:right;
+}
+
+
+.GridResults
+{
+    text-align:left;
+    max-height:500px;
+    BACKGROUND-COLOR: white;   
+    border-color:#999;
+    border-width:1px;
+    border-style:solid;
+    color:#101010;
+    display:block;
+    cursor:hand;
+}
+
+.GridResults tr.row 
+{
+    background-color:#fff;
+}
+
+.GridResults tr.row:hover
+{
+    background-color:#6C98B3;
+    color:#fff;
+}
+
+.GridHeader 
+{
+    CURSOR: hand;
+    background-color:#000000;
+    border-color:#999;
+    border-width:1px;
+    border-style:solid;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+}
+
+.gridHeaderHover
+{
+    CURSOR: hand;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #6C98B3;
+}
+
+.gridRow
+{
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR:Red;
+    TEXT-ALIGN: left;
+    border:solid 1px;
+    border-color:black;
+}
+
+.gridRowHover
+{
+    CURSOR: hand;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: Silver;
+}
+
+.alternating-row
+{
+    background-color:#D4D0C8;
+    color:#000;
+}
+
+.Hide
+{
+    visibility:hidden;
+    position:absolute;
+    display:none;
+    overflow:hidden;
+}
+
+.Show
+{
+	/*
+    visibility:visible;
+    position:static;
+	*/
+    display:inline;
+    overflow:auto;
+}
+
+.border 
+{
+    border-style:solid;
+    border-color:#666666;
+    border-width:1px;
+    padding:10px;
+    position:relative;
+    height:auto;
+    width:auto;
+}
+
+.LabDivPanel 
+{           
+    height:auto;
+    position:relative;
+    display:table; /*this will fix the alignment issues with the grid in Firefox and IE 7*/
+    width:1024px;
+    white-space:nowrap;
+}
+
+.button 
+{
+    border:solid #000000;
+    border-width:1px;
+    background-color:#fff;
+    color:#000000;
+    padding:2px 0px 0px 2px;
+}
+
+.reset
+{
+    border:solid #000000;
+    border-width:1px;
+    background-color:#fff;
+    color:#000000;
+    padding:2px 0px 0px 2px;
+    margin-left:20px;
+}
+
+.noprint
+{
+    margin-left:20px;
+}
+           
+           
+
+/* Top Link CLASSES--------------------------------------------*/
+
+.menuContainer {
+	background-color:#000;
+	position:relative; 
+	width:auto;
+	display:block;
+	margin-top: 10px;
+	}
+	
+.logo
+{
+	float:left;
+    color:#fff;
+    background-color:#000;
+}	
+
+.logoImg
+{
+	width:300px;
+    height:9px;
+	/* background-image:url(../img/Logos/pembrooke-logo.gif); */
+    background-repeat:no-repeat;
+    left:20px;
+    top:30px;
+    display:block;
+    /* visibility:hidden; */
+}
+.chat
+{
+    float:left;
+    display:block;
+    margin-left: 50px;
+    padding-left: 150px;
+}	
+	.MasterChat
+{
+    /* display:none; */
+}
+.menu
+{
+    margin:10px 0px 0px 250px; /* 40px 0px 0px 300px; */
+}
+
+.topLink {
+	color:#fff;
+	position:relative;
+	margin:0px;
+	background-color:#000;
+	}
+
+.topLink a
+{
+    padding:7px;
+    padding-left:20px;
+    padding-right:20px;
+    display:block;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.topLink a:hover
+{
+    text-decoration:none;
+    background-color:#ff0000;
+    color:#ffffff;
+    display:block;
+}
+
+.topLink a:active
+{
+    text-decoration:none;
+    color:#ffffff;
+    position:relative;
+}
+
+.topLink .selected a
+{   text-decoration:none;
+    color:#ffffff;
+    position:relative;
+}    
+
+.topLinkSelected /* for the selected state, reference in "staticselectedstyle" in ASP tag */
+{
+    background-color: #ff0000;
+    color: #fff;
+    display:block;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.red-bar{
+	height:15px;
+	width:100%;
+	background-color:#FF0000;
+	display: block;
+	position:relative;
+	margin-top:2px;
+	color: Red;
+}
+
+
+
+/* -------------------- Button Skin ------------------- */
+
+.LinkButton
+{
+	margin-left: 5px;
+	font-size: 01.0em;
+}
+
+/* onmouseover="this.className='ButtonOver'" onmouseout="this.className='ButtonOut'" */
+.StandardButton
+{
+	border-color:#FFFFCC;
+	background-color: #FFFFCC;
+	background-image: url("../img/buttons/Button_0.gif");
+	background-repeat:repeat;
+	font-weight:bold;
+}
+.ButtonOver
+{
+	background-image: url("../img/buttons/Button_1.gif");
+	border-color:#FFFFCC;
+	background-color: #FFFFCC;
+	background-repeat:repeat;
+	font-weight:bold;
+}
+.ButtonOut
+{
+	background-image: url("../img/buttons/Button_0.gif");
+	border-color:#FFFFCC;
+	background-color: #FFFFCC;
+	background-repeat:repeat;
+	font-weight:bold;
+}
+
+.hilite {
+	background-image :url("../img/buttons/Button_1.gif");
+}
+.nohilite {
+	background-image :none;
+}
+/* ----------------------------------------------------- */
+
+
+.DoubleUnderline
+{
+	border-bottom: 3px double;
+}
+
+#sectionNavMenu { clear: left; float: left; margin-left: 25px; width: 1000px; }
+#sectionNavMenu a { font-size: 16px; text-decoration: none; color: #0000ff; margin-right: 20px; }
+#sectionNavMenu a:hover { text-decoration: underline; }
+
+.majorHeader
+{
+    font-family: Verdana;
+    font-size:32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    color:#000000;
+}
+
+.width150
+{
+    display: inline-block;
+    width: 150px;
+}
