@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 .wrapper.main {
-    background-color: #000;
-    color: #fff;
+    background-color: white;
+    color: black;
     font-family: "Ubuntu";
 }
 
@@ -22,3 +22,7 @@
 	
 }
 
+.ncsunav {
+    background-color:#CC0000;
+    color:white;
+}
