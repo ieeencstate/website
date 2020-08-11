@@ -1,6 +1,13 @@
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+.html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 .wrapper.main {
     background-color: white;
     color: black;
