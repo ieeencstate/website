@@ -733,6 +733,13 @@ hr {
     padding-bottom: 25%;
 }
 
+.cal {
+    position: relative;
+    width: 70%;
+    height: 0;
+    padding-bottom: 55%;
+}
+
 .robo-vid {
     position: absolute;
     top: 0;
