@@ -747,12 +747,13 @@ hr {
     width: 100%;
     height: 100%;
 }
-
 .sara {
-    height: 25%;
-    width: 25%;
+    max-width: 200px;
+    height: auto;
+    width: auto\9;
     border-radius: 50%;
 }
+
 @media screen and (max-width: 720px) {
     .cal {
         position: relative;
@@ -768,9 +769,4 @@ hr {
         padding-bottom: 55%;
     }
 
-    .sara {
-        height: 55%;
-        width: 55%;
-        border-radius: 50%;
-    }
   }
