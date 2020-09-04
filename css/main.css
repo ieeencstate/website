@@ -50,9 +50,19 @@
 
 }
 
-/*
-.social-buttons {
+.social-buttons-footer ul {
     text-align: center;
+    list-style: none;
+    display: flex;
+}
+
+.social-buttons-footer li {
+    padding-right: 25px;
+}
+
+/*
+.social-icons {
+    display: flex;
 }
 .fa {
     padding: 12px;
@@ -64,38 +74,33 @@
     border-radius: 12px;
   }
   
-  .fa:hover {
-      opacity: 0.7;
-  }
   
-  .fa-facebook {
+  .fa-facebook:hover {
     background: #3B5998;
     color: white;
   }
   
-  .fa-twitter {
+  .fa-twitter:hover {
     background: #55ACEE;
     color: white;
   }
   
-  .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-  
-  .fa-linkedin {
+  .fa-linkedin:hover {
     background: #007bb5;
     color: white;
   }
   
-  .fa-youtube {
+  .fa-youtube:hover {
     background: #bb0000;
     color: white;
   }
   
-  .fa-instagram {
-    background: #125688;
+  .fa-instagram:hover {
+    background: #DD2A7B;
     color: white;
   }
 
-  */
+  .fa-github:hover {
+    border-block-color: #000000;
+    color: #000000;
+  }*/
