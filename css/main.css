@@ -106,16 +106,14 @@ ul {
     padding:0;
     list-style: none;
 }
-.section-social-icons {
+.social-icons {
     display:block;
     margin: 0 auto;
 }
 .social-icon {
     color: #fff;
 }
-ul.social-icons {
-    margin-top: 10px;
-}
+
 .social-icons li {
     vertical-align: top;
     display: inline;
@@ -135,6 +133,7 @@ ul.social-icons {
 }
 .fa-facebook:hover {
     background-color: #3d5b99;
+    color: white;
 }
 .fa-twitter {
     padding:10px 12px;
@@ -147,19 +146,9 @@ ul.social-icons {
 }
 .fa-twitter:hover {
     background-color: #00aced;
+    color: white;
 }
-.fa-rss {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    color: #000000;
-}
-.fa-rss:hover {
-    background-color: #eb8231;
-}
+
 
 .fa-linkedin {
     padding:10px 14px;
@@ -172,6 +161,7 @@ ul.social-icons {
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
+    color: white;
 }
 .fa-github {
     padding:10px 14px;
@@ -184,4 +174,19 @@ ul.social-icons {
 }
 .fa-github:hover {
     background-color: #5a32a3;
+    color: white;
+}
+
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: #000000;
+}
+.fa-instagram:hover {
+    background-color: #DD2A7B;
+    color: white;
 }
