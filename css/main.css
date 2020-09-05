@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url("font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 .html {
@@ -60,11 +60,12 @@
     padding-right: 25px;
 }
 
-/*
+
 .social-icons {
     display: flex;
 }
-.fa {
+.social-icons a i {
+    color: #000000;
     padding: 12px;
     font-size: 25px;
     width: 45px;
@@ -75,32 +76,32 @@
   }
   
   
-  .fa-facebook:hover {
+  .fb:hover {
     background: #3B5998;
     color: white;
   }
   
-  .fa-twitter:hover {
+  .twitter:hover {
     background: #55ACEE;
     color: white;
   }
   
-  .fa-linkedin:hover {
+  .linkedin:hover {
     background: #007bb5;
     color: white;
   }
   
-  .fa-youtube:hover {
+  .youtube:hover {
     background: #bb0000;
     color: white;
   }
   
-  .fa-instagram:hover {
+  .instagram:hover {
     background: #DD2A7B;
     color: white;
   }
 
-  .fa-github:hover {
-    border-block-color: #000000;
+  .github:hover {
+    background: #777777;
     color: #000000;
-  }*/
+  }
